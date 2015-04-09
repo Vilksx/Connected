@@ -26,7 +26,18 @@ namespace ConnectedTest.Controllers
 				response = "Device Not Found.";
 			else
 				response = "Device found";
-			return new ObjectResult(response + MyUsbDevice);
+			var final = response + MyUsbDevice;
+			Models.TestModel tm = new Models.TestModel();
+			tm.Title = response;
+			tm.Content = final;
+
+
+
+
+
+			
+			return View(tm);
+			//return new ObjectResult(response + MyUsbDevice);
 		} 
 		
 		
