@@ -8,7 +8,7 @@
         "Microsoft.AspNet.StaticFiles": "1.0.0-beta3",
 		"Microsoft.AspNet.Server.WebListener": "1.0.0-beta3",
 		"LibUsbDotNet": "2.2.8",
-		"Kestrel": "1.0.0-*" 
+		"Kestrel": "1.0.0-beta3" 
     },
     "frameworks": {
        // "aspnet50": { },

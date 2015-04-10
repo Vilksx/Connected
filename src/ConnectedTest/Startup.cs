@@ -26,6 +26,7 @@ namespace ConnectedTest
            // app.UseStaticFiles();
             // Add MVC to the request pipeline.
             app.UseMvc();
+			
         }
     }
 }
