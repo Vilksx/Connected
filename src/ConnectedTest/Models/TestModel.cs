@@ -1,5 +1,7 @@
 ﻿using System;
 
+using System.ComponentModel.DataAnnotations;
+
 namespace ConnectedTest.Models
 {
     public class TestModel
