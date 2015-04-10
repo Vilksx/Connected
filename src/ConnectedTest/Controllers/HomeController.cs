@@ -17,7 +17,7 @@ namespace ConnectedTest.Controllers
 			new UsbDeviceFinder(0x093A, 0x2700);
 		#endregion
 		[HttpGet("/")]
-		public IActionResult Index()
+		public IActionResult index()
 		{
 			MyUsbDevice = UsbDevice.OpenUsbDevice(MyUsbFinder);
 			string response;
